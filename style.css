@@ -1,0 +1,60 @@
+:root {
+    --cor-fundo: #f0f0f0;
+    --cor-letra: #222;
+    --fonte-texto: Arial, sans-serif;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-letra);
+    font-family: var(--fonte-texto);
+    padding: 40px;
+}
+
+body.dark {
+    --cor-fundo: #181818;
+    --cor-letra: #f0f0f0;
+}
+
+#principal {
+    min-height: 400px;
+    max-width: 500px;
+    margin: 0 auto;
+    color: rgb(85, 82, 82);
+    padding: 30px;
+    text-align: center;
+}
+#principal h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+#principal p {
+    font-size: 20px;
+    color: rgb(133, 102, 63);
+}
+
+#tentativa {
+   min-width: 150px;
+   font-size: 25px;
+   text-align: center;
+}
+#verificar {
+    padding: 10px 30px;
+    background-color: #7f78d2;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 800;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.sucesso {
+    color: green;
+}
+.erro {
+    color: red;
+}
